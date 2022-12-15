@@ -14,7 +14,7 @@ const SearchCity = () => {
   const [alert, setAlert] = useState(false);
 
   const { errorPost, isLoadingPost, sendRequest: postWeather } = useFetch();
-  const { error, sendRequest: fetchWeather} = useFetch();
+  const { sendRequest: fetchWeather} = useFetch();
   const {
     errorGetCities,
     isLoadingGetCities,
