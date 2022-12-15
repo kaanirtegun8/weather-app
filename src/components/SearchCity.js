@@ -35,7 +35,7 @@ const SearchCity = () => {
 
     getCities(
       {
-        url: `${process.env.REACT_APP_FIREBASE_API}/cities.json`,
+        url: `${process.env.REACT_APP_FIREBASE_API}cities.json`,
       },
       transFormCities
     );
