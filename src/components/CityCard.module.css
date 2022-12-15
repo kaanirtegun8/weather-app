@@ -1,0 +1,13 @@
+.card {
+    width: 250px;
+    padding: 20px;
+    background-color: beige !important;
+}
+
+.card-media {
+    margin-top: 20px;
+}
+
+.paddingReset{
+    padding: 0px !important;
+}
