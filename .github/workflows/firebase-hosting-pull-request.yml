@@ -15,6 +15,9 @@ jobs:
           envkey_REACT_APP_API_KEY: '809d38149c67e584c87669ad574a5f5d'
           envkey_REACT_APP_FETCH_URL: 'https://api.openweathermap.org/data/2.5/'
           envkey_REACT_APP_FIREBASE_API: 'https://weather-app-4ada1-default-rtdb.firebaseio.com/'
+          REACT_APP_API_KEY: '809d38149c67e584c87669ad574a5f5d'
+          REACT_APP_FETCH_URL: 'https://api.openweathermap.org/data/2.5/'
+          REACT_APP_FIREBASE_API: 'https://weather-app-4ada1-default-rtdb.firebaseio.com/'
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_WEATHER_APP_4ADA1 }}'
           projectId: weather-app-4ada1
